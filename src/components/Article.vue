@@ -74,6 +74,14 @@ export default {
   beforeMount:function(){
   	this.isLoading = true
   	this.getAtrData()
+  },
+  watch: {
+    '$route' (to, from) {
+      // 对路由变化作出响应...
+      console.log('变化了');
+      this.isLoading = true
+      this.getAtrData()
+    }
   }
   
 }

@@ -77,6 +77,7 @@ export default {
   	this.isLoading = true
   	this.getData()
   },
+  //跳转到同一个组件要在组件上添加事件监听
   watch: {
     '$route' (to, from) {
       // 对路由变化作出响应...
