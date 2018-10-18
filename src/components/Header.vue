@@ -8,7 +8,7 @@
   				
   			}
   		}">
-  			<img src="//static2.cnodejs.org/public/images/cnodejs_light.svg">
+  			<img src="../assets/cnodejs_light.svg">
   		</router-link>
   		
   		

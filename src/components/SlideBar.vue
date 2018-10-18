@@ -23,7 +23,7 @@
 						name: 'post_content',
 						params: {
 							id: list.id,
-							loginname: list.loginname
+							name: list.loginname
 						}
 					}">
 						<span class="link">{{list.title}}</span>
@@ -76,6 +76,14 @@ export default {
   beforeMount:function(){
   	this.isLoading = true
   	this.getData()
+  },
+  watch: {
+    '$route' (to, from) {
+      // 对路由变化作出响应...
+      console.log('变化了');
+      this.isLoading = true
+      this.getAtrData()
+    }
   }
   
 }
