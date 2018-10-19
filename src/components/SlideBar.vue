@@ -134,4 +134,14 @@ export default {
 	.link {
 		color: #444;
 	}
+	@media (min-width: 360px) and (max-width: 376px) {
+		.slideBar {
+			display: none;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 1100px) {
+		.slideBar {
+			margin-right: 20px;
+		}
+	}
 </style>

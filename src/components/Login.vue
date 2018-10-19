@@ -113,4 +113,10 @@ export default {
     	font-size: 14px;
     	color: #999;
     }
+    @media (min-width: 360px) and (max-width: 376px) {
+    	.layout {
+    		width: 100%;
+    		margin: 20px 0 0 0;
+    	}
+    }
 </style>

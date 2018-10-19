@@ -183,4 +183,30 @@ export default {
 		color: #777;
 		line-height: 40px;
 	}
+	@media (min-width: 360px) and (max-width: 376px) {
+		.postList {
+			font-size: 14px;
+		}
+		.main {
+			margin: 0;
+			width: 100%;
+			border: none;
+		}
+		.header>span {
+			margin: 0px;
+			padding: 2px 5px;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 1100px) {
+		.postList {
+			font-size: 18px;
+		}
+		li {
+			padding: 15px;
+		}
+		.header>span {
+			padding: 5px 10px;
+			font-size: 19px;
+		}
+	}
 </style>

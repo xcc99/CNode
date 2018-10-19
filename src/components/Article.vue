@@ -177,4 +177,25 @@ export default {
 	.reply p {
 		margin-left: 40px;
 	}
+	@media (min-width: 360px) and (max-width: 376px) {
+		.article .main {
+			width: 100%;
+			margin: 0;
+		}
+		.article .reply {
+			width: 100%;
+			margin: 0;
+			margin-top: 20px;
+		}
+	}
+	 @media (min-width: 768px) and (max-width: 1100px) {
+     	.article .main {
+     		width: 68%;
+     		margin: 20px 20px;
+     	}
+     	.article .reply {
+     		width: 68%;
+     		margin: 20px 20px;
+     	}
+     }
 </style>

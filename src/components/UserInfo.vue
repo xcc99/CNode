@@ -176,4 +176,16 @@ export default {
 .more {
 	font-size: 13px;
 }
+@media (min-width: 360px) and (max-width: 376px) {
+	.user_infomation {
+		width: 100%;
+		margin: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+	.user_infomation {
+		width: 85%;
+
+	}
+}
 </style>

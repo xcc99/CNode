@@ -93,4 +93,12 @@ export default {
 	.currentPage {
 		color: #80bd01;
 	}
+	@media (min-width: 768px) and (max-width: 1100px) {
+		.btn {
+			font-size: 25px;
+		}
+		button {
+			padding: 10px 20px;
+		}
+	}
 </style>
