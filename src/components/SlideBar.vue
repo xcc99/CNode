@@ -20,10 +20,10 @@
 	  		<p class="topbar">最新创建</p>
 			<div v-for="list in createTitle" class="list">
 				<router-link :to="{
-						name: 'post_content',
+						name:'post_content',
 						params: {
 							id: list.id,
-							name: list.loginname
+							loginname: list.loginname
 						}
 					}">
 						<span class="link">{{list.title}}</span>
@@ -81,7 +81,7 @@ export default {
   watch: {
     '$route' (to, from) {
       // 对路由变化作出响应...
-      console.log('变化了');
+      // console.log('变化了');
       this.isLoading = true
       this.getAtrData()
     }
